@@ -4,6 +4,7 @@ import * as THREE from 'three';
 
 class ThreeScene extends Component{
 
+
   componentDidMount(){
 
     const width = this.mount.clientWidth
@@ -29,8 +30,8 @@ class ThreeScene extends Component{
     this.mount.appendChild(this.renderer.domElement)
 
     //ADD CUBE
-    const geometry = new THREE.BoxGeometry(1, 1, 1)
-    const material = new THREE.MeshBasicMaterial({ color: '#433F81'     })
+    const geometry = new THREE.IcosahedronGeometry(0)
+    const material = new THREE.MeshNormalMaterial({ color: '#433F81'     })
     this.cube = new THREE.Mesh(geometry, material)
     this.scene.add(this.cube)
 
@@ -67,7 +68,7 @@ renderScene = () => {
 render(){
     return(
       <div
-        style={{ width: '400px', height: '400px' }}
+        style={{ width: '265px', height: '400px' }}
         ref={(mount) => { this.mount = mount }}
       />
     )
