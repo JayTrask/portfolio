@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: black;
+  font-size: 100%;
+
 }
 
 .App-logo {
@@ -24,7 +27,9 @@
 }
 
 .background{
-  padding-left:30%;
+  padding-left:35%;
+
+
 }
 
 .project{
@@ -32,9 +37,13 @@
   width: 50%;
 }
 
+.column{
+   overflow-x: hidden;
+}
+
 .row{
   width: flex;
-  height: 10%;
+  height: flex;
   padding: 1%;
 }
 
@@ -43,15 +52,33 @@ img {
   height: 100%;
 }
 
-
-.card {
+.devPic{
   width: 20%;
   height: 20%;
+  border-radius: 50%;
+
+}
+
+.Introduction{
+  padding-left: 30%;
+  align-content: center;
+
+}
+
+.card {
+  width: 15%;
+  height: 15%;
   margin: 2%;
 }
 
 .container{
   padding: 5%;
+}
+
+.container-intro{
+  content-align: center;
+  padding: 2%;
+  color: white;
 }
 
 
@@ -65,8 +92,14 @@ img {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 5%;
+  padding-top: 15%;
 }
+
+.icon-bar { 
+  font-family: "Courier New", Monospace;
+  font-style: normal;
+}
+ 
 
 .icon-bar a {
   display: block; /* Make the links appear below each other instead of side-by-side */
@@ -74,7 +107,7 @@ img {
   padding: 16px; /* Add some padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: white; /* White text color */
-  font-size: 36px; /* Increased font-size */
+  font-size: 140%; /* Increased font-size */
 }
 
 .icon-bar a:hover {

@@ -5,13 +5,23 @@ import './App.css';
 import ThreeScene from './components/ThreeScene.js';
 import Sidebar from './components/Sidebar.js';
 import Body from './components/Body.js';
+import Introduction from './components/Introduction.js';
 
 function App() {
   return (
 
     <div className="App">
-        <Sidebar/>
-        <Body/>
+        <div className="column">
+          <Sidebar/>
+        </div>
+        <div className="column">
+          <div className= "row">
+            <Introduction/>
+          </div>
+          <div className="row">
+            <Body/>
+          </div>
+        </div>
 
     </div>
   );
