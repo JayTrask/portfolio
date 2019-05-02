@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: black;
+  background-image: radial-gradient(#333333, #222222, black);
   font-size: 100%;
 
 }
@@ -90,7 +90,7 @@ img {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: black;
   overflow-x: hidden;
   padding-top: 15%;
 }
