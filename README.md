@@ -16,3 +16,7 @@ I used the following resources in creating this website:
  - Resize canvas dynamically for Three JS
  - Finalize introduction
  - Layout pages for projects and about page
+
+## Project ideas
+ - Web scraper
+ - Sorting Algorithms visualizer
