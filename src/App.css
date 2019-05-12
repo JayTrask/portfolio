@@ -1,9 +1,14 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
   background-image: url('./imgs/background.png');
+  background-color: black;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   font-size: 100%;
+  position: fixed;
+
 
 }
 
@@ -55,25 +60,39 @@ img {
   height: 100%;
 }
 
-.devPic{
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  border-style: solid ;
-  border-width: 1px;
-  border-color: black;
-
-}
-
 .headshot{
-  width: 75%;
-  height: 75%;
+  width: flex;
+  height: flex;
+  padding-left: 15%;
 }
 
 .Introduction{
-  padding-left: 30%;
   align-content: center;
 
+}
+
+.intro-column{
+  width: 40%;
+}
+
+.intro-pad{
+  width: 10%;
+}
+
+.enter-button{
+  border-radius: 15%;
+  font-family: "Courier New", Monospace;
+  font-style: normal;
+
+  width: 20%;
+  height: 8%;
+  background-color: transparent;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  margin-top: 50%;
+  margin-right: 50%;
+  border: solid white 1px;
 }
 
 .card {
@@ -94,6 +113,7 @@ img {
 
 
 .sidebar{
+  opacity: 0.8;
   color: #61dafb;
   height: 100%;
   width: 12%;
@@ -101,7 +121,8 @@ img {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: black;
+  background-image: linear-gradient(to left, #1e1111, #1e1111, #1e1111, black);
+  background-color: #1e1111;
   overflow-x: hidden;
   padding-top: 15%;
 }

@@ -11,13 +11,15 @@ class Introduction extends Component{
 		return(
 			<div className="Introduction">
 				<div className="row Introduction">
-					<img src={headshot1} className="headshot" ></img>
-				</div>
-				<div className="row Introduction">
-					<div className="container-intro">
-						<h3> Jay Trask </h3>
-						<p> Software Engineer </p>
+					<div className="intro-pad"></div>
+					<div className="intro-column">
+						<img src={headshot1} className="headshot" ></img>
 					</div>
+
+					<div className="intro-column">
+						<button className="button enter-button">enter</button>
+					</div>
+					<div className="intro-pad"></div>
 				</div>
 
 			

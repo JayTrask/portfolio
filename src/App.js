@@ -12,17 +12,8 @@ function App() {
 
     <div className="App">
         <div className="column">
-          <Sidebar/>
-        </div>
-        <div className="column">
-          <div className= "row">
             <Introduction/>
-          </div>
-          <div className="row">
-            <Body/>
-          </div>
         </div>
-
     </div>
   );
 }
