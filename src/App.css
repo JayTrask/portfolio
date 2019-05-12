@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-image: radial-gradient(#333333, #222222, black);
+  background-image: url('./imgs/background.png');
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
   font-size: 100%;
 
 }
@@ -63,6 +65,11 @@ img {
 
 }
 
+.headshot{
+  width: 75%;
+  height: 75%;
+}
+
 .Introduction{
   padding-left: 30%;
   align-content: center;
@@ -70,9 +77,9 @@ img {
 }
 
 .card {
-  width: 15%;
-  height: 15%;
-  margin: 2%;
+  width: 25%;
+  height: 25%;
+  margin: 1%;
 }
 
 .container{
@@ -89,7 +96,7 @@ img {
 .sidebar{
   color: #61dafb;
   height: 100%;
-  width: 20%;
+  width: 12%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -97,6 +104,11 @@ img {
   background-color: black;
   overflow-x: hidden;
   padding-top: 15%;
+}
+
+.threeContainer{
+  height: 500px;
+  width: 250px;
 }
 
 .icon-bar { 

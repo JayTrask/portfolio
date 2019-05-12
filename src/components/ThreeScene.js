@@ -35,7 +35,7 @@ class ThreeScene extends Component{
     this.cube = new THREE.Mesh(geometry, material)
     this.scene.add(this.cube)
 
-this.start()
+    this.start()
 
   }
 
