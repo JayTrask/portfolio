@@ -10,12 +10,16 @@ I used the following resources in creating this website:
  - [Three JS Documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
 
 # Latest Accomplishments
- - Structured Main page layout, made up of a sidebar, introduction, and a preview of highlighted projects
+ - Restructured main page to be a landing page
+ - Moved projects to their own page 
+ - A lot of custom graphics for the website!
 
 # Goals for Next Session
- - Resize canvas dynamically for Three JS
- - Finalize introduction
- - Layout pages for projects and about page
+- Delegate CSS across each component rather than one CSS file
+- Replace enter site button with HTML element
+- Clean up formatting of projects page
+- Add navigation 
+- Add Dubs, Hivelist, and coding challenges to projects page
 
 ## Project ideas
  - Web scraper
