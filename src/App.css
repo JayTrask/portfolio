@@ -80,19 +80,11 @@ img {
 }
 
 .enter-button{
-  border-radius: 15%;
-  font-family: "Courier New", Monospace;
-  font-style: normal;
-
-  width: 20%;
-  height: 8%;
-  background-color: transparent;
-  color: white;
-  padding: 1%;
-  text-align: center;
-  margin-top: 50%;
+  width: 50%;
+  height: 75%;
+  margin-top: 30%;
   margin-right: 50%;
-  border: solid white 1px;
+
 }
 
 .card {
