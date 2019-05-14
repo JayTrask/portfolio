@@ -4,7 +4,7 @@ import './App.css';
 
 import ThreeScene from './components/ThreeScene.js';
 import Sidebar from './components/Sidebar.js';
-import Body from './components/Body.js';
+import Projects from './components/Projects.js';
 import Introduction from './components/Introduction.js';
 
 class App extends Component {
@@ -24,7 +24,7 @@ class App extends Component {
     <div className="App">
         <div className="column">
           { !this.state.enter &&  <Introduction enterSite={this.enterSite} /> }
-          { this.state.enter && <Body/> }
+          { this.state.enter && <Projects/> }
         </div>
     </div>
     );

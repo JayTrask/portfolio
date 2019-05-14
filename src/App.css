@@ -33,11 +33,6 @@
   color: #61dafb;
 }
 
-.background{
-  padding-left:35%;
-
-
-}
 
 .project{
   height: 10%;
@@ -53,7 +48,15 @@
   width: flex;
   height: flex;
   padding: 1%;
+  justify-content: center;
 }
+
+.row-projects{
+  height: 10%;
+}
+
+
+
 
 img {
   width: 100%;
@@ -91,11 +94,18 @@ img {
   width: 25%;
   height: 25%;
   margin: 1%;
+
+}
+
+.img-project{
+  border-radius: 5% 5% 0 0;
 }
 
 .container{
   padding: 5%;
+  color: white;
 }
+
 
 .container-intro{
   content-align: center;

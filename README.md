@@ -1,6 +1,6 @@
 ﻿# Portfolio
 
-This website is a host for several projects and other information that employers would find valuable to know about me. It is created with ReactJS, THREE.js
+This website is a host for several projects and other information that employers would find valuable to know about me. It is created with ReactJS
 
 # Resources
 
@@ -10,16 +10,16 @@ I used the following resources in creating this website:
  - [Three JS Documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
 
 # Latest Accomplishments
- - Restructured main page to be a landing page
- - Moved projects to their own page 
- - A lot of custom graphics for the website!
+- Add Dubs, Hivelist, and coding challenges to projects page
+- Formatting of projects page 
 
 # Goals for Next Session
 - Delegate CSS across each component rather than one CSS file
 - Replace enter site button with HTML element
 - Clean up formatting of projects page
 - Add navigation 
-- Add Dubs, Hivelist, and coding challenges to projects page
+- Change up color palette
+- Replace Hivelist with another projects
 
 ## Project ideas
  - Web scraper
