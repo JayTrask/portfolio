@@ -6,25 +6,56 @@ import ThreeScene from './components/ThreeScene.js';
 import Sidebar from './components/Sidebar.js';
 import Projects from './components/Projects.js';
 import Introduction from './components/Introduction.js';
+import Resume from './components/Resume.js';
 
 class App extends Component {
 
   state = {
-    enter: false
+    home: true,
+    project: false,
+    resume: false,
+    aboutme: false
   }
 
-  enterSite = () => {
+  projectView = () => {
     this.setState({
-      enter: true
+      home: false,
+      project: true,
+      resume: false,
+      aboutme: false
+    })
+  }
+
+  resumeView = () => {
+    this.setState({
+      home: false,
+      project: false,
+      resume: true,
+      aboutme: false
+    })
+  }
+
+  aboutmeView = () => {
+    this.setState({
+      home: false,
+      project: false,
+      resume: false,
+      aboutme: true
     })
   }
 
   render(){
     return(
     <div className="App">
+      <Sidebar
+      projectView={this.projectView}
+      resumeView={this.resumeView}
+      aboutmeView={this.aboutmeView}
+      />
         <div className="column">
-          { !this.state.enter &&  <Introduction enterSite={this.enterSite} /> }
-          { this.state.enter && <Projects/> }
+          { this.state.home &&  <Introduction projectView={this.projectView} /> }
+          { this.state.project && <Projects/> }
+          { this.state.resume && <Resume/> }
         </div>
     </div>
     );

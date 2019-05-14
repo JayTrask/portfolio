@@ -38,7 +38,7 @@
   height: 10%;
   width: 50%;
   background-color: black;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .column{
@@ -127,10 +127,13 @@ img {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to left, #1e1111, #1e1111, #1e1111, black);
-  background-color: #1e1111;
-  overflow-x: hidden;
+  overflow-y: hidden;
   padding-top: 15%;
+}
+
+.sidebarIcon{
+  height: 35%;
+  width: 35%;
 }
 
 .threeContainer{
@@ -141,6 +144,11 @@ img {
 .icon-bar { 
   font-family: "Courier New", Monospace;
   font-style: normal;
+}
+
+.resume-embed{
+  width: 40%;
+  height: 100vh;
 }
  
 
