@@ -12,14 +12,14 @@ I used the following resources in creating this website:
 # Latest Accomplishments
 - Add Dubs, Hivelist, and coding challenges to projects page
 - Formatting of projects page 
+- Coordinated color palette
 
 # Goals for Next Session
 - Delegate CSS across each component rather than one CSS file
 - Replace enter site button with HTML element
-- Clean up formatting of projects page
 - Add navigation 
-- Change up color palette
 - Replace Hivelist with another projects
+- Link each project with github, live demo
 
 ## Project ideas
  - Web scraper
