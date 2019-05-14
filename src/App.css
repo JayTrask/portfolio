@@ -38,6 +38,7 @@
   height: 10%;
   width: 50%;
   background-color: black;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .column{
@@ -103,7 +104,10 @@ img {
 
 .container{
   padding: 5%;
-  color: white;
+  font-family: "Courier New", Monospace;
+  color: #c49d89;
+  background-color: #160f06;
+  opacity: .75;
 }
 
 
