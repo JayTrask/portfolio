@@ -19,7 +19,7 @@ class Introduction extends Component{
 					</div>
 
 					<div className="intro-column">
-						<a onClick={this.props.projectView}><img src={enterButton} className="enter-button"></img></a>
+						<img src={enterButton} className="enter-button"></img>
 					</div>
 					<div className="intro-pad"></div>
 				</div>

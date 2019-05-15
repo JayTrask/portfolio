@@ -7,6 +7,7 @@ import Sidebar from './components/Sidebar.js';
 import Projects from './components/Projects.js';
 import Introduction from './components/Introduction.js';
 import Resume from './components/Resume.js';
+import AboutMe from './components/AboutMe.js';
 
 class App extends Component {
 
@@ -15,6 +16,15 @@ class App extends Component {
     project: false,
     resume: false,
     aboutme: false
+  }
+
+  homeView = () => {
+    this.setState({
+      home: true,
+      project: false,
+      resume: false,
+      aboutme: false
+    })
   }
 
   projectView = () => {
@@ -48,6 +58,7 @@ class App extends Component {
     return(
     <div className="App">
       <Sidebar
+      homeView={this.homeView}
       projectView={this.projectView}
       resumeView={this.resumeView}
       aboutmeView={this.aboutmeView}
@@ -56,6 +67,7 @@ class App extends Component {
           { this.state.home &&  <Introduction projectView={this.projectView} /> }
           { this.state.project && <Projects/> }
           { this.state.resume && <Resume/> }
+          { this.state.aboutme && <AboutMe/>}
         </div>
     </div>
     );
