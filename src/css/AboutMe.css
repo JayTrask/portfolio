@@ -6,6 +6,7 @@
 	margin-top: 10%;
 	width: 40%;
 
+
 }
 
 .about-me-pic{
@@ -19,12 +20,13 @@
 	width: 100%;
 	height: 100%;
  	font-family: "Courier New", Monospace;
+ 	font-size: small;
  	color: #c49d89;
  	background-color: #160f06;
  	opacity: .75;
  	border-radius: 0 0 5% 0;
  	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 	padding: 5%;
+ 	padding: 3%;
 }
 
 .about-picker{
@@ -33,7 +35,8 @@
 	height: 6%;
 	margin: 2%;
 	margin-left: 45%;
-	background-color: #c49d89
+	background-color: #c49d89;
+	background-position: fixed;
 }
 
 .about-picker-column{

@@ -41,7 +41,7 @@ class AboutMe extends Component{
 	render(){
 		return(
 			<div className="about-me">
-				<div className="row">
+				<div className="row about-me-row">
 
 					<div className="about-me-column">
 						{this.state.one && <img src={pic1} className="about-me-pic"></img> }
