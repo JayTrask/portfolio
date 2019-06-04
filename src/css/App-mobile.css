@@ -1,0 +1,105 @@
+.App-mobile{
+	background-image: url('../imgs/background.png');
+ 	background-color: black;
+ 	background-size: cover;
+}
+
+.Nav img{
+	width: 40%;
+	margin: 5%;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Nav{
+	font-family: "Courier New", Monospace;
+	color: #c49d89;
+	font-size: small;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	position:fixed;
+	background-image: linear-gradient(to bottom, black, black, black, rgba(0,0,0, 0));
+}
+
+.NavLabels{
+	color:#c49d89;
+	text-align: center;
+	letter-spacing: .7em;
+	font-size: x-small;
+
+	padding-top: 13%;
+
+}
+
+
+.mobile-intro{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.headshot-mobile{
+	width: 300px;
+}
+
+.enter-button-mobile{
+	width: 200px;
+	height: 200px;
+}
+
+.mobile-resume{
+	width: 80%;
+	height: 80%;
+	margin: 10%;
+	opacity: .8;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mobile-projects{
+	display: flex;
+	flex-direction: column;
+	font-family: "Courier New", Monospace;
+	font-size: x-small;
+	align-items: center;
+	text-align: center;
+}
+
+.mobile-projects img{
+	width: 50%;
+	opacity: .8;
+	margin-top: 5%;
+	border-radius: 20px 20px 0 0;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mobile-card{
+	text-align: center;
+}
+
+.mobile-container{
+	font-family: "Courier New", Monospace;
+	color: #c49d89;
+	font-size: small;
+	background-image: linear-gradient(to bottom, black, black, rgba(0,0,0, 0));
+	display:flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 25%;
+
+}
+
+.mobile-about-me{
+	color:#c49d89;
+	font-family: "Courier New", Monospace;
+	font-size: small;
+	padding: 10%;
+}
+
+.mobile-about-me-pic{
+	margin: 5%;
+	width: 90%;
+	border-radius: 10px 0 10px 0;
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

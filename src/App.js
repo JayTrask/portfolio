@@ -8,6 +8,7 @@ import Projects from './components/Projects.js';
 import Introduction from './components/Introduction.js';
 import Resume from './components/Resume.js';
 import AboutMe from './components/AboutMe.js';
+import Appmobile from './components/App-mobile.js';
 
 class App extends Component {
 
@@ -54,23 +55,34 @@ class App extends Component {
     })
   }
 
+  isMobile = window.innerWidth <= 500;
+
+
   render(){
-    return(
-    <div className="App">
-      <Sidebar
-      homeView={this.homeView}
-      projectView={this.projectView}
-      resumeView={this.resumeView}
-      aboutmeView={this.aboutmeView}
-      />
-        <div className="column">
-          { this.state.home &&  <Introduction projectView={this.projectView} /> }
-          { this.state.project && <Projects/> }
-          { this.state.resume && <Resume/> }
-          { this.state.aboutme && <AboutMe/>}
-        </div>
-    </div>
-    );
+    if(!this.isMobile){
+      return(
+      <div className="App">
+        <Sidebar
+        homeView={this.homeView}
+        projectView={this.projectView}
+        resumeView={this.resumeView}
+        aboutmeView={this.aboutmeView}
+        />
+          <div className="column">
+            { this.state.home &&  <Introduction projectView={this.projectView} /> }
+            { this.state.project && <Projects/> }
+            { this.state.resume && <Resume/> }
+            { this.state.aboutme && <AboutMe/>}
+          </div>
+      </div>
+      );
+    }
+
+    else return(
+      <div className="App-mobile">
+        <Appmobile />
+      </div>
+      );
   }
 }
 
