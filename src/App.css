@@ -36,11 +36,10 @@
 
 
 .project{
-  height: 100px;
-  width: 50%;
   background-color: black;
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5% 5% 0 0;
+
 }
 
 .column{
@@ -48,16 +47,19 @@
 }
 
 .row{
-  width: flex;
-  height: flex;
+
   padding: 1%;
   justify-content: center;
 }
 
-.row-projects{
-  height: 10%;
+.project-row{
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 8%;
+  width: 50%;
+  height: 50%;
 }
-
 
 
 
@@ -95,10 +97,16 @@ img {
 }
 
 .card {
-  width: 20%;
-  height: 20%;
-  margin: 1%;
+  font-size: small;
+  margin: 3%;
 
+}
+
+.img-project:hover {
+    background-image: linear-gradient(to top, #000000, #111111) important!;
+    opacity:0.3;
+
+    transition: .5s;
 }
 
 .img-project{

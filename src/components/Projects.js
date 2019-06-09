@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import ThreeScene from './ThreeScene.js';
+
 import dubs from '../imgs/dubs.png'
 import leetcode from '../imgs/leetcode.png'
 import temp from '../imgs/temp.png'
+import calculator from '../imgs/calculator.png'
 
 
 class Projects extends Component{
@@ -10,13 +12,13 @@ class Projects extends Component{
 	
 	render(){
 		return(
-				<div className="row row-projects">
+				<div className="project-row">
 
 					<div className="card project">
-						<a href="https://github.com/JayTrask/HiveList"><img src={temp} className="img-project"></img>
+						<a href="https://github.com/JayTrask/ReactCalculator"><img src={calculator} className="img-project"></img>
 						<div className="container">
-							<h4><b>Hivelist</b></h4>
-							<p>Collaboratively build playlists with a unique voting system.</p>
+							<h4><b>Calculator</b></h4>
+							<p>A basic calculator web application built with html, css, and React.</p>
 						</div></a>
 					</div>
 
@@ -31,7 +33,7 @@ class Projects extends Component{
 					<div className="card project">
 						<a href="https://github.com/JayTrask/challenges"><img src={leetcode} className="img-project"></img>
 						<div className="container">
-							<h4><b>Coding Challenges</b></h4>
+							<h4><b>Challenges</b></h4>
 							<p>Solutions to Leetcode, Hackerrank, and similar challenges.</p>
 						</div></a>
 					</div>
