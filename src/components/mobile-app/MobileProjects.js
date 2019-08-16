@@ -22,7 +22,7 @@ class MobileProjects extends Component{
 					</div>
 
 					<div className="mobile-card">
-						<a href="https://www.dubsonline.com/"><img src={dubs}></img>
+						<a href="https://jaytrask.github.io/DubsWebsite/"><img src={dubs}></img>
 						<div className="mobile-container">
 							<h4><b>Dub's Online</b></h4>
 							<p>Static website built for hometown liquor store.</p>

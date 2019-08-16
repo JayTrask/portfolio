@@ -15,7 +15,7 @@ class Projects extends Component{
 				<div className="project-row">
 
 					<div className="card project">
-						<a href="https://github.com/JayTrask/ReactCalculator"><img src={calculator} className="img-project"></img>
+						<a href="https://jaytrask.github.io/ReactCalculator/"><img src={calculator} className="img-project"></img>
 						<div className="container">
 							<h4><b>Calculator</b></h4>
 							<p>A basic calculator web application built with html, css, and React.</p>
@@ -23,7 +23,7 @@ class Projects extends Component{
 					</div>
 
 					<div className="card project">
-						<a href="https://www.dubsonline.com/"><img src={dubs} className="img-project"></img>
+						<a href="https://jaytrask.github.io/DubsWebsite/"><img src={dubs} className="img-project"></img>
 						<div className="container">
 							<h4><b>Dub's Online</b></h4>
 							<p>Static website built for hometown liquor store.</p>
